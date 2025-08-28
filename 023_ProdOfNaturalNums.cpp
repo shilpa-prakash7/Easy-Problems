@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n, prod = 1; //Declaring variable for n and initiating prod as 1
+    int n, prod = 1; //Declaring variable for n and initialising prod as 1
 
     cout << "Enter how many natural numbers to be multiplied: ";
     cin >> n;    //Stores the user input in variable n
@@ -16,4 +16,5 @@ int main()
 
     //Printing the product of n numbers
     cout << "\nThe product of first " << n << " Natural numbers = " << prod;
+
 }
