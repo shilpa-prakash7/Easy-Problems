@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n, sum = 0; //Declaring variable for n and initiating sum as 0
+    int n, sum = 0; //Declaring variable for n and initialising sum as 0
 
     cout << "Enter how many natural numbers to be added: ";
     cin >> n;    //Stores the user input in variable n
@@ -18,3 +18,4 @@ int main()
     cout << "\nThe sum of first " << n << " Natural numbers = " << sum;
 
 }
+
